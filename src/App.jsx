@@ -14,6 +14,8 @@ import { Pricing } from "./components/ui/pricing";
 import { Faq } from "./components/faq";
 import { Footer } from "./components/footer";
 // import { Floating_toggle_btn } from "./components/floating_toggle_btn";
+import { Analytics } from "@vercel/analytics/react"
+
 
 export default function App() {
   return (
@@ -31,6 +33,7 @@ export default function App() {
         <Faq/>
         <Footer/>
         {/* <Floating_toggle_btn/> */}
+        <Analytics/>
       </div>
     </ThemeProvider>
   );
